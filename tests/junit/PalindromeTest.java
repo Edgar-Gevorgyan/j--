@@ -24,6 +24,8 @@ public class PalindromeTest extends TestCase
 		this.assertEquals(pal.palindrome("abba"), "abba");
 		this.assertEquals(pal.palindrome("abca"), "");
 		this.assertEquals(pal.palindrome("AbBa"), "AbBa");
+		this.assertEquals(pal.palindrome("Ka yAk"), "Ka yAk");
+		this.assertEquals(pal.palindrome("K     a yYyY A    k"), "K     a yYyY A    k");
+		this.assertEquals(pal.palindrome("K a yaq"), "");
 	}
 }
- 
